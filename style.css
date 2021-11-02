@@ -1,0 +1,117 @@
+.nilinav {
+  /* navbar css */
+  /* aw bo awaya styleakay xom wargre nak away boot strap */
+  background-color: #191f27 !important;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#herosectoinS2 {
+  /* hero css */
+  border-radius: 15px;
+}
+
+#skillsectonS3 {
+  /* skill section css */
+  display: flex;
+  flex-direction: column;
+}
+.row1skill {
+  /* row skill css 1 */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.row2skill {
+  /* row skill css 2 */
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.stylCard {
+  /*  skill cardakan css */
+
+  background-color: #2d3035;
+}
+.stylCard:hover {
+  /* hovery card akan */
+  background-color: rgb(12, 57, 65);
+  border: #191f27;
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.colerphskill {
+  /* colory h5 w p title  y skill akan css */
+  color: rgb(191, 192, 188);
+}
+
+.zmancard {
+  /* card y zman  */
+  width: 500px;
+}
+
+#contactS4 {
+  /* section y form contact */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background-color: #2d3035;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: aliceblue;
+  border-radius: 10px;
+}
+#textypalformycontact {
+  /* texty pal formakaya */
+}
+#formdiv {
+  /* css y  formy contactaka  */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.forminputt {
+  /* css y inputakany form y contact */
+}
+
+.subform:hover {
+  /* botton y submity formaka */
+  background-color: rgb(9, 28, 32);
+  color: rgb(5, 5, 4);
+  width: 100px;
+  height: 40px;
+}
+
+#textypalformycontact {
+  /* css y  formy contactaka  */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* navbar animation  css */
+.imgclassanimation {
+  animation: animatedArrow 1.5s infinite ease-in-out;
+}
+
+@keyframes animatedArrow {
+  from {
+    transform: translateY(135px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(-135px);
+    opacity: 1;
+  }
+}
